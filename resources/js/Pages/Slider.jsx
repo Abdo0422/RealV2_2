@@ -113,7 +113,7 @@ const Slider = () => {
     padding: '20px',
     height: '400px',
     margin: '-10px',
-    marginBottom:'200px'
+    
   }}
   onMouseEnter={() => handleMouseEnter(product.id)}
   onMouseLeave={handleMouseLeave}

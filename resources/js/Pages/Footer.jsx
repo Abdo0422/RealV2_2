@@ -1,6 +1,7 @@
 import Logo from '../components/Logo';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import './Footer.css'
 
 const Footer = () => {
   const form = useRef();
@@ -33,13 +34,13 @@ const Footer = () => {
                   <label className="block text-start" htmlFor="name">
                     Full Name:
                   </label>
-                  <input className="w-full h-8 px-4 py-2 border border-gray-300 rounded" type="text" id="name" name="name" required /><br />
+                  <input className="w-full h-8 px-4 py-2 border border-gray-300 rounded contactinput" type="text" id="name" name="name" required /><br />
                 </div>
                 <div>
                   <label className="block text-start" htmlFor="email">
                     Email:
                   </label>
-                  <input className="w-full h-8 px-4 py-2 border border-gray-300 rounded" type="email" id="email" name="email" required /> <br />
+                  <input className="w-full h-8 px-4 py-2 border border-gray-300 rounded contactinput" type="email" id="email" name="email" required /> <br />
                 </div>
               </div>
               <div className="flex">
@@ -47,11 +48,11 @@ const Footer = () => {
                   <label className="block text-start" htmlFor="message">
                     Message:
                   </label>
-                  <textarea id="message" name="message" className="w-full px-4 py-2 border border-gray-300 rounded" required></textarea>
+                  <textarea id="message" name="message" className=" contactinput w-full px-4 py-2 border border-gray-300 rounded" required></textarea>
                   <br />
                 </div>
                 <div>
-                  <input className="mt-8 ml-24 w-24 h-12 hover:bg-purple-700 hover:border-gray-300 rounded" type="submit" value="Submit" />
+                  <input className="submit mt-8 ml-24 w-24 h-12 rounded" type="submit" value="Submit" />
                 </div>
               </div>
             </form>

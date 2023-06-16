@@ -402,7 +402,7 @@
   .bg-products{
     display: block;
 
-    margin-top: 500px;
+    
     margin-left: 10px;
   }
   #herosect{
@@ -512,11 +512,11 @@ margin-right: 10px;
   color: #fff;
 }
 #pro6{
-  background-color: #fffb02;
+  background-color: #fffb00;
   scroll-behavior: smooth;
-  color: white;
+
 }
 #pro6:active{
-  background-color: black;
-  color:#dfdb00;
+  background-color: #dedc6a;
+  
 }

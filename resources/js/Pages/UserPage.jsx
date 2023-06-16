@@ -143,12 +143,12 @@ export default function Welcome({ auth }) {
 </div>
 {/* -----------------This is the end of categorynav section------------------------------------------- */ }
 
-<Slider />
+
 {/* -----------------This is the begining of herosection------------------------------------------- */ }
 
 
   
-    <div className="relative overflow-hidden bg-gradient-to-r from-indigo-900 via-indigo-600 to-indigo-900" style={{marginTop:'-60px',marginBottom:'120px'}} id='pro99'>
+    <div className="relative overflow-hidden bg-gradient-to-r from-indigo-900 via-indigo-600 to-indigo-900" style={{marginBottom:'120px'}} id='pro99'>
       <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
           <div className="sm:max-w-lg">
@@ -246,7 +246,7 @@ export default function Welcome({ auth }) {
               <a
   href="#pro"
   id='pro6'
-  className="inline-block rounded-md border border-transparent px-8 py-3 text-center font-medium"
+  className="inline-block text-indigo-900 rounded-md border border-transparent px-8 py-3 text-center font-medium"
   onClick={(e) => {
     e.preventDefault();
     const element = document.getElementById('pro');
@@ -258,6 +258,7 @@ export default function Welcome({ auth }) {
 
 
 
+
             </div>
           </div>
         </div>
@@ -265,7 +266,7 @@ export default function Welcome({ auth }) {
     </div>
 
 {/* -----------------This is the end of herosection------------------------------------------- */ }
-
+<Slider />
 
 
 {/* -----------------This is the begining of productslist------------------------------------------- */ }
@@ -299,8 +300,8 @@ export default function Welcome({ auth }) {
                 )}
               </div>
 
-              <h3 className="mt-4 text-sm text-gray-700 text-center" id="pretext5">{isLoading ? 'Loading...' : product.title}</h3>
-              <p className="mt-1 text-lg font-medium text-gray-900 text-center" id="pretext6">
+              <h3 className="mt-4 text-sm text-gray-700 text-center " id="pretext5">{isLoading ? 'Loading...' : product.title}</h3>
+              <p className="mt-1 text-sm font-medium text-gray-900 text-center" id="pretext6">
                 {isLoading ? (
                   <div className="animate-pulse bg-gray-300 w-1/3 h-5"></div>
                 ) : (
@@ -330,7 +331,7 @@ export default function Welcome({ auth }) {
 
             
 
-    <div style={{ marginTop:"-100px",marginTop:"-30vh",width:"100%" }}>      
+    <div style={{   marginTop:"-30vh",width:"100%" }}>      
 <Footer/></div>
   </>
      )}    
