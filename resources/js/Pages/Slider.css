@@ -1,0 +1,82 @@
+/* Custom styles for Swiper navigation */
+.swiper-button-next,
+.swiper-button-prev {
+  text-align: center;
+  color: rgb(66, 24, 218); /* Button color */
+  border-radius: 50%; /* Button shape */
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  position: absolute;
+  top: 32%; /* Button padding */
+}
+.loadere {
+	border-top-color: #3498db;
+	-webkit-animation: spinner 1.5s linear infinite;
+	animation: spinner 1.5s linear infinite;
+}
+.light-title h3 {
+  color: black;
+}
+
+.dark-title h3 {
+  color: white;
+}
+.blur {
+  filter: blur(8px);
+}
+#proimg0{
+    border-radius: 10px;
+    position: absolute;
+    left: 20%;
+    top: 12%;
+  }
+
+@-webkit-keyframes spinner {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+ 
+@keyframes spinner {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+  
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .slider-product {
+    max-height: 150px; 
+    
+  }
+  #proimg0{
+    position: absolute;
+    left: 20%;
+    top: 5%;
+    max-width: 70%;
+    max-height: 30%;
+  }
+  #protext{
+    text-align: center;
+    font-size: smaller;
+  }
+  #prodesc{
+    display: none;
+  }
+  .swiper-button-next,
+.swiper-button-prev { 
+  top: 20%;
+}
+#slider2{
+  margin-bottom: -200px;
+}
+}
+

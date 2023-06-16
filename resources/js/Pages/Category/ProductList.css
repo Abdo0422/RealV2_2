@@ -1,0 +1,297 @@
+/* From uiverse.io by @satyamchaudharydev */
+/* removing default style of button */
+
+.categories {
+    text-align: center;
+    
+}
+.categories .category {
+    display: inline-block;
+    margin:auto  25px 0px;
+    text-align: center;
+}
+.categories .category i {
+    display: inline;
+    color:#787885;
+    font-size: 14px;
+}
+
+.categories .category p {
+    font-size: 11px;
+    color:#787885;
+    font-family: inherit;
+    
+}
+.dropdown-content {
+  position: absolute;
+  top:40px;
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  left:0px;
+  background-color: #f9f9f9;
+  min-width: 500px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content li a {
+  
+  font-weight: 600;
+}
+.dropdown-content li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.dropdown-content li a{
+  color: #5B06E5;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+
+
+
+
+.main-color {
+    color: #5B06E5;
+}
+.login-hover:hover {
+    text-decoration: underline;
+}
+.form button {
+    border: none;
+    background: none;
+    color: #5B06E5;
+  }
+  /* styling of whole input container */
+  .form {
+    --timing: 0.3s;
+    --width-of-input: 500px;
+    --height-of-input: 40px;
+    --border-height: 2px;
+    --input-bg: #fff;
+    --border-color: #5B06E5;
+    --border-radius: 30px;
+    --after-border-radius: 1px;
+    position: relative;
+    width: var(--width-of-input);
+    height: var(--height-of-input);
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    border-radius: var(--border-radius);
+    transition: border-radius 0.5s ease;
+    background: rgb(241, 241, 241);
+  }
+  /* styling of Input */
+  .input {
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    border: none;
+    outline: none;
+  }
+  .input:focus {
+    border: none;
+    outline: none;                
+  }
+  
+
+  /* styling of animated border */
+  .form:before {
+    content: "";
+    position: absolute;
+    background: var(--border-color);
+    transform: scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: var(--border-height);
+    left: 0;
+    bottom: 0;
+    border-radius: 1px;
+    transition: transform var(--timing) ease;
+  }
+  /* Hover on Input */
+  .form:focus-within {
+      
+        border-radius: var(--after-border-radius);
+  }
+  
+  input:focus {
+    outline: none;
+    border: none;
+  }
+  /* here is code of animated border */
+  .form:focus-within:before {
+    transform: scale(1);
+  }
+  /* styling of close button */
+  /* == you can click the close button to remove text == */
+  .reset {
+    border: none;
+    background: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+  /* close button shown when typing */
+  input:not(:placeholder-shown) ~ .reset {
+    opacity: 1;
+    visibility: visible;
+  }
+  /* sizing svg icons */
+  .form svg {
+    width: 17px;
+    margin-top: 3px;
+  }
+  .card {
+    width: 190px;
+    height: 254px;
+    transition: all 0.2s;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .card-inner {
+    width: inherit;
+    height: inherit;
+    background: rgba(255,255,255,.05);
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+  }
+  
+  .card:hover {
+    transform: scale(1.04) rotate(360deg);
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(#5d1ec2, #5B06E5);
+    border-radius: 50%;
+    opacity:60%;
+    position: absolute;
+    animation: move-up6 2s ease-in infinite alternate-reverse;
+  }
+  
+  .circle:nth-child(1) {
+    top: -25px;
+    left: -25px;
+  }
+  
+  .circle:nth-child(2) {
+    bottom: -25px;
+    right: -25px;
+    animation-name: move-down1;
+  }
+
+  @keyframes move-up6 {
+    to {
+      transform: translateY(-15px);
+    }
+  }
+  
+  @keyframes move-down1 {
+    to {
+      transform: translateY(15px);
+    }
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .text-purple-light {
+    color: #8a4eaf;
+  }
+  
+  .text-purple-lighter {
+    color: #b18fcf;
+  }
+  #pretext5{
+    text-align:center;
+    width: 300px;
+    margin-left: 5px;
+    font-size: medium;
+    font-weight: bolder;
+   }
+   #pretext6{
+    text-align:center;
+    width: 300px;
+    margin-left: 10px;
+    font-size: medium;
+    font-weight: bolder;
+   }
+  @media (max-width: 640px) {
+    /* Mobile format */
+     #aspectimg{
+  width: 300px;
+  margin-left: 270px;
+ }
+ #procol{
+  max-width: 400px;
+ }
+ #pretext5{
+  text-align:center;
+  width: 300px;
+  margin-left: 270px;
+  font-size: medium;
+ }
+ #pretext6{
+  text-align:center;
+  width: 300px;
+  margin-left: 280px;
+  font-size: medium;
+ }
+    #load ,#cart{
+        position: absolute;
+        left: 10%;
+        top: 0%; 
+        margin-top: 7px;
+    }
+    #load{
+      width: 20px;
+      height: 20px;
+    }
+  #list1{
+    margin-right: 35px;
+  }
+  #grid1{
+    margin-right: 50px;
+  }
+
+  }  
+  .loading-line {
+    height: 4px;
+    background-color: #6366f1;
+    animation: loading 1s infinite;
+  }
+  
+  @keyframes loading {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  

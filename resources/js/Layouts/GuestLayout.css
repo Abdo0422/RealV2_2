@@ -1,0 +1,23 @@
+.bg-register-login {
+    background-image: linear-gradient(to right top, #46217c, #4d2093, #531dab, #5819c4, #5c12dd, #5d0ee6, #5f08ef, #6002f8, #5f03f3, #5e04ee, #5c05ea, #5b06e5);   
+     animation: float  10s infinite ease-in;
+}
+@keyframes float {
+    0% {border-radius: 75% 50% 75% 50%;}
+    20% {border-radius: 0% 50% 75% 50%;}
+    40% {border-radius: 75% 0% 75% 50%;}
+    60% {border-radius: 75% 50% 0% 50%;}
+    80% {border-radius: 75% 50% 75% 0%;}
+    100% {border-radius: 75% 50% 75% 50%;}
+}
+/*
+.bg-register-login {
+    background-image: linear-gradient(to right top, #46217c, #4d2093, #531dab, #5819c4, #5c12dd, #5d0ee6, #5f08ef, #6002f8, #5f03f3, #5e04ee, #5c05ea, #5b06e5);   
+     animation: float  10s infinite ease-in;
+}
+@keyframes float {
+    0% {border-radius: 75% 50% 75% 50%;}
+    50% {border-radius: 0% 0% 0% 0%;}
+    
+    100% {border-radius: 75% 50% 75% 50%;}
+}*/

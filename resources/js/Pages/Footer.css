@@ -1,0 +1,30 @@
+@media (max-width: 540px) {
+  .contact .flex {
+    flex-direction: column;
+  }
+
+  .contact .flex > div {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .contact .flex > div:last-child {
+    margin-bottom: 0;
+  }
+
+  .contact .flex input[type="submit"] {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .realfooter .grid {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .realfooter .grid a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}

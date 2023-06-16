@@ -1,0 +1,46 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@headlessui/react": "^1.7.14",
+        "@inertiajs/react": "^1.0.0",
+        "@popperjs/core": "^2.11.6",
+        "@tailwindcss/forms": "^0.5.3",
+        "@vitejs/plugin-react": "^3.0.0",
+        "autoprefixer": "^10.4.12",
+        "axios": "^1.4.0",
+        "bootstrap": "^5.3.0",
+        "laravel-vite-plugin": "^0.7.2",
+        "postcss": "^8.4.18",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "sass": "^1.56.1",
+        "tailwindcss": "^3.2.1",
+        "vite": "^4.3.9"
+    },
+    "dependencies": {
+        "@emailjs/browser": "^3.11.0",
+        "@fortawesome/fontawesome-free": "^6.4.0",
+        "@fortawesome/free-solid-svg-icons": "^6.4.0",
+        "@fortawesome/react-fontawesome": "^0.2.0",
+        "@heroicons/react": "^2.0.18",
+        "@inertiajs/inertia": "^0.11.1",
+        "@inertiajs/inertia-react": "^0.8.1",
+        "daisyui": "^2.51.6",
+        "emailjs": "^4.0.2",
+        "emailjs-com": "^3.2.0",
+        "jquery": "^3.6.4",
+        "lodash": "^4.17.21",
+        "lottie-web": "^5.12.0",
+        "moment": "^2.29.4",
+        "react-icons": "^4.8.0",
+        "react-modal": "^3.16.1",
+        "react-spinners": "^0.13.8",
+        "react-spinners-kit": "^1.9.1",
+        "react-window": "^1.8.9",
+        "swiper": "^9.3.2"
+    }
+}

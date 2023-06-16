@@ -1,0 +1,19 @@
+.bg-register {
+    background-image:url('../../../../public/4.svg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+
+.illu {
+    margin-top: -150px;
+    
+    animation: float 5s alternate linear backwards infinite;
+    transform: translateY(0px);
+}
+@keyframes float {
+    50% {transform: translateY(-20px);}
+    100% {transform: translateY(0px);}
+}
